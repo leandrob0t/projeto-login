@@ -37,13 +37,11 @@ section#login {
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.452);
     transition: width .3s height .3s;
     transition-timing-function: ease;
-    
-    
+      
 }
 
 section#login > div#imagem {
     display: block;
-    
     background-color: var(--cor02);
     background-image: url(../imagens/china.jpg);
     background-repeat: no-repeat;
@@ -51,10 +49,26 @@ section#login > div#imagem {
     height: 200px;
     background-position: center center;
     
-    
 }
 
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+div.campo {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
 }
